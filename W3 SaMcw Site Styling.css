@@ -1,0 +1,47 @@
+h1{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%); /*This line and the 3 above it are the lines referrenced in the comment about the header box.*/
+    font-size: 24pt;
+    line-height: 1; /*This indiates the line spacing. ex: single, double, 1.2 etc.*/
+    text-align: center;
+    margin-bottom: 10px; /*This just adds space underneath*/
+    font-family: Maine, 'Times New Roman', Times, serif /*The main display font will be Maine. If font is not found, it will default to TNR  and others. To update: Just choose a
+    different font family*/
+    
+}
+
+body{
+    line-height: 2;
+    font-size: 14pt;
+    margin-top: 100px;
+    font-family: Maine, 'Times New Roman', Times, serif /*The main display font will be Maine. If font is not found, it will default to TNR  and others. To update: Just choose a
+    different font family*/
+}
+
+body{
+    background-image: url('https://cdn.discordapp.com/attachments/587528166248284161/1078482768108990474/23070512_image01.png'); /*This is an image of me with my cousins when I
+    was younger with my grandfather (the male in the middle holdong one of my cousins). The red arrow indicates me.*/
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+@font-face{
+    font-family: "Maine";
+    font-weight: normal;
+    font-style: normal;
+    src: url(D:\School\UAT\Fonts\Maine\Maine\MaineLightFreeWebDesktopFont\Fonts) format{'opentype'}
+    /*This is the download link for the Maine font: https://befonts.com/downfile/628faa963643bad9573db8c3db22195d.261051*/
+}
+
+.box{
+    display: inline-block; /*This tells the code to only place the box around the text inside rather than spacing the entire page as it defaults to.*/
+    background-color: rgba(95, 69, 38, 0.473);
+    padding: 10px 20px; /*This adds extra space between the text and the edges of the box so it isn't so tightly hugged.*/
+    border-radius: 10px; /*This rounds the corners of te box*/
+    color: white;
+}
+.box p {
+    margin: 0;
+  }
